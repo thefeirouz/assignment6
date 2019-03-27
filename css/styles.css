@@ -1,0 +1,105 @@
+body { 
+	background-image: url(https://hdwallsource.com/img/2018/1/overwatch-game-desktop-wallpaper-62849-64853-hd-wallpapers.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.grid-layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 100px 475px 115px;
+	grid-template-areas: "head head nav-bar nav-bar" ". .  . ." "weak weak main main";
+	margin: 0 auto;
+}
+.head { 
+	grid-area: head; 
+	background-color: black;
+}
+.nav-bar { 
+	grid-area: nav-bar; 
+	background-color: black;
+}
+.weak { 
+	grid-area: weak; 
+	background-color: #4A4C4E;
+}
+.main { 
+	grid-area: main; 
+	background-color: #4A4C4E;
+}
+.menu ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #FA9C1D;
+}
+.is-current {
+	border-bottom: 2px solid white;
+}
+header img {
+	display: block;
+	position: absolute;
+	top: 7px;
+	left: 45px;
+}
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+nav li { 
+	margin: 25px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+}
+.boxes {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 0;
+}
+.boxes li {
+	display: block;
+	position: absolute;
+	flex-basis: 100px;
+	list-style-type: none;
+	border: 3px solid #FA9C1D;
+	border-radius: 25px;
+	margin-right: 20px;
+	padding: 20px;
+	background-color: black;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 23px;
+	bottom: 20px;
+	right: 175px;
+}
+.boxes a { 
+	color: white; 
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.boxes a:hover { 
+	color: #FA9C1D; 
+}
+a { text-decoration: none; }
+.quote {
+	margin: 0 auto;
+	padding: 0 auto;
+	display: block;
+	position: absolute;
+	left: 45px;
+	bottom: 6px;
+	text-align: center;
+	color: white;
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 18px;
+	font-style: italic;
+}

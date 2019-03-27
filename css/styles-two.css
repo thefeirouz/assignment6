@@ -1,0 +1,148 @@
+.grid-container { 
+	display: grid;
+	grid-template-rows: 100px 0.75fr 0.75fr 1fr 50px 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: "head head nav-bar nav-bar" "overview overview overview overview" "gameplay gameplay gameplay gameplay" "plot plot plot plot" "sign-up sign-up sign-up sign-up";
+	margin: 0 auto;
+	background-color: #405275;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+.head {
+	grid-area: head;
+	background-color: black;
+}
+.nav-bar {
+	grid-area: nav-bar;
+	background-color: black;
+}
+.overview {
+	grid-area: overview;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-bottom: 3px #FA9C1D solid;
+}
+.gameplay {
+	grid-area: gameplay;
+	margin-bottom: 0;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-bottom: 3px #FA9C1D solid;
+}
+.plot {
+	grid-area: plot;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-bottom: 3px #FA9C1D solid;
+}
+.sign-up {
+	grid-area: sign-up;
+	margin-left: 70px;
+}
+.foot {
+	grid-area: foot;
+}
+header img {
+	display: block;
+	position: absolute;
+	top: 7px;
+	left: 45px;
+}
+.menu ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #FA9C1D;
+}
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+nav li { 
+	margin: 25px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+}
+.is-current {
+	border-bottom: 2px solid white;
+}
+p {
+	line-height: 1.6;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'IBM Plex Serif', serif;
+	color: white;
+}
+.overview h2 {
+	margin-top: 40px;
+}
+.shift {
+	margin-top: 70px;
+}
+.move {
+	margin-top: 50px;
+}
+.picture { 
+	margin-top: 60px;
+}
+h2 {
+	margin-left: 10px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: white;
+}
+fieldset {
+	width: 25%;
+	margin-left: 10px;
+}
+a { text-decoration: none; }
+form {
+	margin-top: 20px;
+	color: white;
+	margin-left: 940px;
+}
+footer {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+footer a {
+	color: black;
+}
+.down {
+	margin-top: 7px;
+}
+.information {
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.information-two {
+	margin-left: 110px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.information-three {
+	margin-right: 50px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.picture-two {
+	margin-top: 80px;
+}
+.down-two {
+	margin-top: 20px;
+}
+.picture-three {
+	margin-top: 80px;
+}
