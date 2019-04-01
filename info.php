@@ -67,14 +67,26 @@
 	</div>
 
 	<div class="sign-up">
-		<form>
-			<fieldset>
-				<legend>Sign up for our Overwatch Newsletter!</legend>
-				Email Address:<br>
-				<input type="text" name="email"><br>
-				<input type="submit" value="Submit">
-			</fieldset>
-		</form>
+		<form method="post" action="new-insert.php">
+
+		<div>
+			<label for="first">First Name: </label>
+			<input type="text" name="first" id="first">
+		</div>
+
+		<div>
+			<label for="last">Last Name: </label>
+			<input type="text" name="last" id="last">
+		</div>
+
+		<div>
+			<label for="email">E-mail: </label>
+			<input type="email" name="email" id="email">
+		</div>
+
+		<input type="submit" value="Enter">
+
+	</form>
 	</div>
 		
 <?php include "inc/scripts.inc"; ?>
