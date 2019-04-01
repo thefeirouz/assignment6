@@ -15,24 +15,27 @@
 		<?php include "inc/nav.inc"; ?>
 	</section>
 
-	<form method="post" action="new-insert.php">
+	<section class="sign-up">
+		<h1>Sign Up For Our Overwatch Newsletter!</h1>
+		<form method="post" action="new-insert.php">
 
-		<div>
-			<label for="first">First Name: </label>
-			<input type="text" name="first" id="first">
-		</div>
+			<div>
+				<label for="first">First Name: </label>
+				<input type="text" name="first" id="first">
+			</div>
 
-		<div>
-			<label for="last">Last Name: </label>
-			<input type="text" name="last" id="last">
-		</div>
+			<div>
+				<label for="last">Last Name: </label>
+				<input type="text" name="last" id="last">
+			</div>
 
-		<div>
-			<label for="email">E-mail: </label>
-			<input type="email" name="email" id="email">
-		</div>
+			<div>
+				<label for="email">E-mail: </label>
+				<input type="email" name="email" id="email">
+			</div>
 
-		<input type="submit" value="Enter">
+			<input type="submit" value="Sign Up!">
+			<input type="hidden" name="redirect" value="info.php">
 
 	</form>
 
