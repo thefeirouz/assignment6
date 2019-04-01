@@ -2,29 +2,29 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Home | Midterm Project</title>
+	<title>Home | Assignment 6</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif" rel="stylesheet">
 </head>
 <body class="grid-layout">
-	<div class="head">
+	<section class="head">
 		<?php include "inc/logo.inc"; ?>
-	</div>
+	</section>
 
-	<div class="nav-bar">
+	<section class="nav-bar">
 		<?php include "inc/nav.inc"; ?>
-	</div>
+	</section>
 
-	<div class="weak">
+	<section class="weak">
 		<aside class="quote">
 			<p>Heroes Never Die!</p>
 			<p>-Mercy</p>
 		</aside>
-	</div>
+	</section>
 
-	<div class="main">
+	<article class="main">
 		<ol class="boxes">
-			<li><a href="info.php">Learn More!</a></li>
+			<li><a href="sign-up.php">Sign Up for Our Newsletter!</a></li>
 		</ol>
-	</div>
+	</article>
 <?php include "inc/scripts.inc"; ?>

@@ -67,6 +67,7 @@ nav li {
 	padding-left: 0;
 }
 .boxes li {
+	color: white;
 	display: block;
 	position: absolute;
 	flex-basis: 100px;
@@ -103,3 +104,5 @@ a { text-decoration: none; }
 	font-size: 18px;
 	font-style: italic;
 }
+form { color: white; }
+

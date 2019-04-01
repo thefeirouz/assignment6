@@ -1,0 +1,55 @@
+.grid-container { 
+	display: grid;
+	grid-template-rows: 100px 0.75fr 0.75fr 1fr 50px 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: "head head nav-bar nav-bar" "overview overview overview overview" "gameplay gameplay gameplay gameplay" "plot plot plot plot" "sign-up sign-up sign-up sign-up";
+	margin: 0 auto;
+	background-color: #405275;
+}
+.head {
+	grid-area: head;
+	background-color: black;
+}
+.nav-bar {
+	grid-area: nav-bar;
+	background-color: black;
+}
+header img {
+	display: block;
+	position: absolute;
+	top: 7px;
+	left: 45px;
+}
+.menu ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #FA9C1D;
+}
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+nav li { 
+	margin: 25px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+}
+.is-current {
+	border-bottom: 2px solid white;
+}
+p {
+	line-height: 1.6;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'IBM Plex Serif', serif;
+	color: white;
+}
