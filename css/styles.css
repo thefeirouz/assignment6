@@ -93,7 +93,7 @@ nav li {
 a { text-decoration: none; }
 .quote {
 	margin: 0 auto;
-	padding: 0 auto;
+	padding: 0;
 	display: block;
 	position: absolute;
 	left: 45px;

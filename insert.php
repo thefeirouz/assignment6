@@ -41,6 +41,7 @@
 <div class="thankyou">
 	<div class="success"><h1>Success!</h1></div>
 
+
 <?php
 	if ($result) {
 		echo "You have signed up for our newsletter! Click the link below to learn more about Overwatch!";
@@ -55,6 +56,7 @@
 	</div>
 	<div class="bottomlink">
 	<a href="more-info.php">Click here to learn more!</a>
+	</div>
 	</div>
 </body>
 </html>
