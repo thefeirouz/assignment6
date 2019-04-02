@@ -37,6 +37,7 @@
 			<input type="submit" value="Sign Up!">
 			<input type="hidden" name="redirect" value="info.php">
 
-	</form>
+		</form>
+	</section>
 
 <?php include "inc/scripts.inc"; ?>

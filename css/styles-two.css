@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-rows: 100px 0.75fr 0.75fr 1fr 50px 10px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-areas: "head head nav-bar nav-bar" "overview overview overview overview" "gameplay gameplay gameplay gameplay" "plot plot plot plot" "sign-up sign-up sign-up sign-up";
+	grid-template-areas: "head head nav-bar nav-bar" "overview overview overview overview" "gameplay gameplay gameplay gameplay" "plot plot plot plot" "link link link link";
 	margin: 0 auto;
 	background-color: #405275;
 }
@@ -37,9 +37,10 @@
 	margin-right: 70px;
 	border-bottom: 3px #FA9C1D solid;
 }
-.sign-up {
-	grid-area: sign-up;
-	margin-left: 70px;
+.link {
+	grid-area: link;
+	margin-left: 80px;
+	margin-top: 20px;
 }
 .foot {
 	grid-area: foot;
@@ -146,3 +147,4 @@ footer a {
 .picture-three {
 	margin-top: 80px;
 }
+

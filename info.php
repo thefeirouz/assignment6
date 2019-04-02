@@ -65,28 +65,8 @@
 			</div>
 		</article>
 	</div>
-
-	<div class="sign-up">
-		<form method="post" action="insert.php">
-
-		<div>
-			<label for="first">First Name: </label>
-			<input type="text" name="first" id="first">
-		</div>
-
-		<div>
-			<label for="last">Last Name: </label>
-			<input type="text" name="last" id="last">
-		</div>
-
-		<div>
-			<label for="email">E-mail: </label>
-			<input type="email" name="email" id="email">
-		</div>
-
-		<input type="submit" value="Enter">
-
-	</form>
-	</div>
+	<article class="link">
+		<a href="http://csc174.org/midterm/jdennis/index.php" target="blank">Link to the original project</a>
+	</article>
 		
 <?php include "inc/scripts.inc"; ?>

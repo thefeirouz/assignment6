@@ -25,21 +25,26 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Database Insert</title>
+	<title>Database Insert | Assignment 6</title>
+	<link rel="stylesheet" href="css/styles-four.css">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif" rel="stylesheet">
 </head>
-<body>
-
-	<h1>Database Insert</h1>
+<body class="grid-container">
+	<h1>Success!</h1>
 
 <?php
 	if ($result) {
-		echo "Success! - the query seemed to work! (At least it didn't error-out.)";
+		echo "You have signed up for our newsletter! Click the link below to learn more about Overwatch!";
 ?>
 <?php
 	} else {
 		die("Database query failed.");
 	}
 ?>
+	<div>
+	<a href="index.php">Click here to return to the home page!</a>
+	<div>
+	<a href="more-info.php">Click here to learn more!</a>
 </body>
 </html>
 
