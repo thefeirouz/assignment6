@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Overwatch Information | Midterm Project</title>
+	<title>Overwatch Information | Assignment 6</title>
 	<link rel="stylesheet" href="css/styles-two.css">
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif" rel="stylesheet">
 </head>
