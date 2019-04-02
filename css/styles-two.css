@@ -148,3 +148,16 @@ footer a {
 	margin-top: 80px;
 }
 
+.link {
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: white;
+}
+
+.link a:visited {
+	color: white;
+}
+
+.link a:hover {
+	color: #FA9C1D;
+}
+

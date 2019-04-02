@@ -28,9 +28,18 @@
 	<title>Database Insert | Assignment 6</title>
 	<link rel="stylesheet" href="css/styles-four.css">
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles-thankyou.css">
 </head>
 <body class="grid-container">
-	<h1>Success!</h1>
+	<section class="head">
+		<?php include "inc/logo.inc"; ?>
+	</section>
+
+	<section class="nav-bar">
+		<?php include "inc/nav.inc"; ?>
+	</section>
+<div class="thankyou">
+	<div class="success"><h1>Success!</h1></div>
 
 <?php
 	if ($result) {
@@ -41,10 +50,12 @@
 		die("Database query failed.");
 	}
 ?>
-	<div>
+	<div class="toplink">
 	<a href="index.php">Click here to return to the home page!</a>
-	<div>
+	</div>
+	<div class="bottomlink">
 	<a href="more-info.php">Click here to learn more!</a>
+	</div>
 </body>
 </html>
 

@@ -20,21 +20,33 @@
 		<form method="post" action="insert.php">
 
 			<div>
+				<div class="labels">
 				<label for="first">First Name: </label>
-				<input type="text" name="first" id="first">
+				</div>
+				<div class="response">
+				<input type="text" name="first" id="first" placeholder = "Your First Name...">
+				</div>
 			</div>
 
 			<div>
+				<div class="labels">
 				<label for="last">Last Name: </label>
-				<input type="text" name="last" id="last">
+				</div>
+				<div class="response">
+				<input type="text" name="last" id="last" placeholder = "Your Last Name...">
+				</div>
 			</div>
 
 			<div>
+				<div class="labels">
 				<label for="email">E-mail: </label>
-				<input type="email" name="email" id="email">
+				</div>
+				<div class="response">
+				<input type="email" name="email" id="email" placeholder = "Your Email...">
+				</div>
 			</div>
 
-			<input type="submit" value="Sign Up!">
+			<div class="button"><input type="submit" value="Sign Up!"></div>
 			<input type="hidden" name="redirect" value="info.php">
 
 		</form>
