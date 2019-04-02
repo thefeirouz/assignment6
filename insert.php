@@ -1,6 +1,6 @@
 <?php
 	// 1. Create a database connection
-	require_once("config.php");
+
 
 	// Usually this data would come from HTML form values in $_POST
 	require_once("config.php");

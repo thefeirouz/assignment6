@@ -17,7 +17,7 @@
 
 	<section class="sign-up">
 		<h1>Sign Up For Our Overwatch Newsletter!</h1>
-		<form method="post" action="new-insert.php">
+		<form method="post" action="insert.php">
 
 			<div>
 				<label for="first">First Name: </label>
