@@ -2,6 +2,9 @@
 	// 1. Create a database connection
 	require_once("config.php");
 
+	// Usually this data would come from HTML form values in $_POST
+	require_once("config.php");
+
 	// This data is coming from HTML form values in $_POST
 	$insertFirstName = $_POST["first"];
 	$insertLastName = $_POST["last"];
@@ -17,6 +20,7 @@
 	$result = mysqli_query($connection, $query);
 
 ?>
+
 <!doctype html>
 <html>
 <head>
@@ -36,15 +40,6 @@
 		die("Database query failed.");
 	}
 ?>
-
-<div>
-	<a href="new-read.php">Checkout your handiwork</a>
-</div>
-
-<div>
-	<a href=".">Or go back to the Index</a>
-</div>
-
 </body>
 </html>
 

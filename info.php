@@ -67,7 +67,7 @@
 	</div>
 
 	<div class="sign-up">
-		<form method="post" action="new-insert.php">
+		<form method="post" action="insert.php">
 
 		<div>
 			<label for="first">First Name: </label>
