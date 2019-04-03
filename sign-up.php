@@ -46,7 +46,7 @@
 				</div>
 			</div>
 
-			<div class="button"><input type="submit" value="Sign Up!"></div>
+			<div class="button"><input type="submit" value="Sign Up!" id="button"></div>
 			<input type="hidden" name="redirect" value="info.php">
 
 		</form>

@@ -1,3 +1,11 @@
+/*	**************************************
+	For this styling, I wanted to keep the page feel as similar as possible to the info and home pages.
+	This included keeping the banner the exact same from page to page. Below the banner, I styled the 
+	form to have the same feel and styling technique as the rest of the website. The styling for the form
+	begins with the .sign-up tag, and all of the styling is done to mimic the feel of the rest of the
+	website with the form.
+	************************************** */
+
 .grid-container { 
 	display: grid;
 	grid-template-rows: 100px 50px 1fr;
@@ -46,13 +54,7 @@ nav li {
 .is-current {
 	border-bottom: 2px solid white;
 }
-p {
-	line-height: 1.6;
-	margin-left: 10px;
-	margin-right: 10px;
-	font-family: 'IBM Plex Serif', serif;
-	color: white;
-}
+
 
 .sign-up {
 	grid-area: sign;
@@ -87,5 +89,13 @@ input {
 input[type=submit] {
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 18px;
-	border: 4px solid #FA9C1D;
+	border: 3px solid #FA9C1D;
+	background-color: black;
+	color: white;
+	width: 22%;
+	border-radius: 20px;
+}
+
+#button:hover {
+	color: #FA9C1D;
 }
